@@ -1,0 +1,12 @@
+#splash {
+    top: 0;
+}
+
+.nav,
+.nav-link {
+    top: 0px;
+    left: 5px;
+    z-index: 10000;
+    background-color: aqua;
+    overflow: hidden;
+}
