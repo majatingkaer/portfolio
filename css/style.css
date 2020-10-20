@@ -4,18 +4,21 @@ body {
     margin: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'DM Serif Text', serif;
 }
+
+h1,
+h2 {
+    font-size: 3rem;
+}
+
 
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-}
-
-.cv {
-    font-size: 1.5rem;
-    color: #E9693A;
 }
 
 
@@ -31,8 +34,7 @@ a:hover {
 /********************* HEADER *********************/
 
 
-.splash_mig {
-}
+.splash_mig {}
 
 
 
@@ -46,7 +48,7 @@ a:hover {
     height: 8vh;
 }
 
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link {
     color: grey;
 }
 
@@ -68,6 +70,13 @@ a:hover {
 
 
 
+
+
+/********************* PROJEKTER *********************/
+
+#projekter h2 {
+    text-align: center;
+}
 
 
 
