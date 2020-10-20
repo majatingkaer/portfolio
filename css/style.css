@@ -90,6 +90,14 @@ a:hover {
     background-color: #e6e1de;
 }
 
+.hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.hover:hover {
+    opacity: 1;
+}
 
 
 
@@ -98,13 +106,16 @@ a:hover {
     background-color: #fffcfb;
 }
 
-.erhvervserfaring, .livserfaring{
+.erhvervserfaring, .livserfaring, .kontakt{
     border: 2px solid grey;
     padding: 10px 20px 20px;
 }
 
 
 /********************* KONTAKT *********************/
+#kontakt {
+    background-color: #fffcfb;
+}
 
 .kontakt {
     font-size: 1.5rem;
