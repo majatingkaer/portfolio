@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="da">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
 
-    <style src="css/style.css"></style>
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Maja Tingkær</title>
 
@@ -17,25 +18,61 @@
 
 <body>
 
-    <main>
-        <section id="splash">
-            <img class="img-fluid" src="img/splash.png" alt="splash">
+        <section class="splash">
+            <img class="splash_baggrund col-12" src="img/splash.png" alt="splash">
         </section>
 
 
+        <nav class="navbar navbar-expand-md navbar-light sticky-top">
+            <div class="container-fluid">
 
-    <nav class="nav flex-column position-fixed">
-        <a class="nav-link" href="#">Om</a>
-        <a class="nav-link" href="#">Kompetencer</a>
-        <a class="nav-link" href="#">Projekter</a>
-        <a class="nav-link" href="#">Erfaring</a>
-        <a class="nav-link" href="#">Interesser</a>
-        <a class="nav-link" href="#">Kontakt</a>
-    </nav>
+                <a class="navbar-brand" href="#"></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="index.html#om">Om</a>
+                        <a class="nav-link" href="index.html#kompetencer">Kompetencer</a>
+                        <a class="nav-link" href="index.html#projekter">Projekter</a>
+                        <a class="nav-link" href="index.html#erfaring">Erfaring</a>
+                        <a class="nav-link" href="index.html#interesser">Interesser</a>
+                        <a class="nav-link" href="index.html#kontakt">Kontakt</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
 
-        <section class="om">
-        <h1>Mit navn er Maja</h1>
+
+
+    <main>
+
+        <section id="om" class="row mt-5 justify-content-center">
+            <div class="col-md-4">
+                <h1>Om mig</h1>
+                <p>Her kommer en tekst om mig</p>
+            </div>
+            <img class="col-md-4" src="img/okt2020.png" alt="portrætfoto">
+        </section>
+
+
+        <section id="kompetencer">
+            <h2>MINE KOMPETENCER</h2>
+        </section>
+
+        <section id="projekter"></section>
+
+        <section id="erfaring"></section>
+
+        <section id="interesser">
+
+        </section>
+
+        <section id="kontakt">
+            <p>Kontakt mig på mail her: maja.tingkaer@gmail.com</p>
         </section>
 
 
@@ -50,6 +87,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
     <script src="js/gsap.min.js"></script>
     <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/minjavascript.js"></script>
 
     <!-- Option 2: Separate Popper.js and Bootstrap JS
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
