@@ -1,7 +1,32 @@
+/********************* GENERELT *********************/
+
 body {
     margin: 0;
 }
 
+h1, h2, h3 {
+    font-family: 'DM Serif Text', serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.cv {
+    font-size: 1.5rem;
+    color: #E9693A;
+}
+
+
+a:link {
+    text-decoration: none;
+    color: #E9693A;
+}
+
+a:hover {
+    color: grey;
+}
 
 /********************* HEADER *********************/
 
@@ -12,7 +37,7 @@ body {
 
 
 .nav-link {
-    font-family: boucherie-flared, sans-serif;
+    font-family: 'DM Serif Text', serif;
     font-size: 1.3rem;
 }
 
@@ -44,6 +69,13 @@ body {
 
 
 
+
+
+/********************* KONTAKT *********************/
+
+.kontakt {
+    font-size: 1.5rem;
+}
 
 
 
