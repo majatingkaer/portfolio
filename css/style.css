@@ -148,6 +148,57 @@ a:hover {
 }
 
 
+
+
+/********************* INTERESSER *********************/
+#interesser img {
+    width: 170px;
+    height: auto;
+}
+
+#interesser p {
+    font-family: 'Neucha', cursive;
+    font-size: 1.7rem;
+}
+
+.end {
+    text-align: end;
+}
+
+
+.container {
+    position: relative;
+
+}
+
+.showHover {
+    display: block;
+}
+
+.hide {
+    position: absolute;
+    top: 10vh;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.container:hover .hide {
+    opacity: 1;
+}
+
+/*
+.hide {
+    display: none;
+}
+
+.showHover:hover + .hide{
+    display: block;
+    color: black;
+}
+*/
+
+
+
 /********************* KONTAKT *********************/
 #kontakt {
     background-color: #fffcfb;
