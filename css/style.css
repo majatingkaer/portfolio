@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -40,11 +44,37 @@ a:hover {
     color: #50555a;
 }
 
+
+
+
+
+
 /********************* HEADER *********************/
 
 
 .splash_mig {}
 
+.pil {
+    top: 92vh;
+    left: 46vw;
+    z-index: 10000000;
+    animation-name: hop_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+
+@keyframes hop_kf {
+    from {
+        transform: translateY(0vh);
+    }
+
+    to {
+        transform: translateY(1.5vh);
+    }
+}
 
 
 .nav-link {

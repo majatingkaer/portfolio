@@ -4,7 +4,7 @@ const sections = document.querySelectorAll("section");
 
 sections.forEach((section) => {
     const divs =
-        section.querySelectorAll("div");
+        section.querySelectorAll(".scroll-effekt");
     gsap.from(divs, {
         opacity: 0,
         y: 100,
@@ -18,6 +18,12 @@ sections.forEach((section) => {
         },
     });
 });
+
+
+gsap.to(".slideInleft", {
+    translateX: 200,
+    duration: 2,
+})
 
 
 gsap.from(".tegning", {
