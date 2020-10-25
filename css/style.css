@@ -47,19 +47,32 @@ a:hover {
 }
 
 
-
+.topknap, .tiltopknap {
+    position: fixed;
+    z-index: 1;
+    bottom: 1vh;
+    right: 1vw;
+    padding: 8px;
+    animation-name: hop_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
 
 
 
 /********************* HEADER *********************/
 
 
-.splash_mig {}
+.splash_baggrund, .splash_img {
+    z-index:100;
+}
 
 .pil {
     top: 92vh;
     left: 46vw;
-    z-index: 10000000;
     animation-name: hop_kf;
     animation-duration: 1s;
     animation-iteration-count: infinite;
